@@ -14,8 +14,7 @@ const config: Config = {
         'bluee': '#a2c4c9',
         'purplee': '#6a216a',
         'purplee box': 'rgb(153 51 153)',
-
-
+        'purplebtn': '#db2fda',
 
       },
       backgroundImage: {
