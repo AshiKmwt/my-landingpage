@@ -13,8 +13,8 @@ import img4 from "./4.webp"
 const main = () => {
   return (
    
-    <div className="boddy">
-    <div className=" bg-black flex pb-10 mb-6">
+    <div className="boddy ">
+    <div className=" bg-black flex pb-10 mb-6 max-md:pb-0">
 
 {/* <div className="  backdrop-opacity-90 blur-sm"> <Image src={bgpic} height={1000} placeholder="blur"  quality={100} sizes="100vw" style={{ objectFit: 'cover', }}
   alt="Picture of the author" /></div> */}
@@ -39,18 +39,16 @@ const main = () => {
       on-brand for your needs. <br />Effortlessly create engaging content ,
       secure lucrative brand deals, <br /> and watch your earnings soar.  </p>
       {/* &#128184; (money emo) */}
-      <div className="flex gap-10 mt-4 max-md:flex-wrap"> 
+      <div className="flex gap-10 mt-4 flex-wrap"> 
       <div className="">
         <input type="Name" id="name" className="border border-black rounded-md text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500   p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name" required />
       </div>
       <div className="mb-5">
         <input type="Email" id="Email" className="border border-black rounded-md text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500   p-2.5  w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email " required />
       </div>
-  
-      {/* <button type="button" className="text-white  bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-8 py-0 text-center me-2 mb-2">Dream big </button> */}
    
       <div>
-     <button type="button" className="roboto-thin bg-gradient-to-r from-purple-400 to-white... hover:text-black hover:text-lg text-white border-2 border-white rounded-full mb-4  px-6 py-2">Submit</button>
+     <button type="button" className="roboto-thin bg-gradient-to-r from-pink-400 to-white... hover:text-black hover:text-lg text-white border-2 border-white rounded-full mb-4  px-6 py-2">Submit</button>
      </div>
     </div>
     
@@ -64,16 +62,16 @@ const main = () => {
 
    
   </div>
+  </div>
   
-</div>
 
 
 
-<div className=" mb-6 md:flex justify-center items-center gap-10 p-20 bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md">
-<Image className="rounded-md" src={bgpic} height={500} width={500} alt="ai screen" />
+<div className=" mb-6 max-md:pt-10 md:flex  justify-center items-center gap-10 p-20 bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md">
+<Image className=" rounded-md" src={bgpic} height={550} width={550} alt="ai screen" />
 
 <ul>
-  <li className="text-black text-5xl pb-4">Chat with Your <br /> Influencer</li>
+  <li className="text-black text-5xl pb-4 max-md:pt-4">Chat with Your <br /> Influencer</li>
   <li className="text-lg">Interact with your AI influencer in real-time through chat. <br /> Build a genuine connection with your audience and <br /> enhance your brand's engagement.</li>
 </ul>
 
@@ -96,7 +94,7 @@ const main = () => {
 <Image className="rounded-md" src={img1} height={500} width={500} alt="ai screen" />
 
 <ul>
-  <li className="text-black text-5xl pb-4">Best in Class AI  <br />Influencer Generator</li>
+  <li className="text-black text-5xl pb-4 max-md:pt-4">Best in Class AI  <br />Influencer Generator</li>
   <li className="text-lg">Virin offers the most advanced AI technology to create <br /> realistic and engaging influencers for your brand. <br /> Say goodbye to traditional influencer marketing.</li>
 </ul>
 
@@ -113,15 +111,15 @@ const main = () => {
 
 
 </div>
-<div className="h-44 flex justify-center items-center bg-black">
-<button className="  bg-blue-500 hover:bg-purple-600 text-white font-bold px-16 py-4  border border-black rounded-full ">
+<div className="h-44  flex justify-center items-center bg-black">
+<button className=" roboto-light bg-blue-500 hover:bg-purple-600 text-white  px-16 py-4  border border-black rounded-md ">
   Join Waitlist
 </button>
 </div>
-    </div>
+   
 
 
-  
+  </div>
 
   )
 }

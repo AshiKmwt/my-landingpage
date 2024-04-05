@@ -8,7 +8,7 @@ const Header = () => {
 
 
     return (
-        <div className="flex justify-between bg-black px-6 h-20 max-md:h-14 border-2 border-b-0  border-purplebtn ">
+        <div className="flex justify-between bg-black px-6 h-20 max-md:h-14 border-2 border-b-0  border-purplebtn max-md:pt-6 ">
             <div className="flex justify-center items-center max-md:m-0  ">
                 <Image className="pt-4 brightness-200" src={logo} height={100} width={100} alt="logo" />
                 <h1 className="text-white max-md:text-left  roboto-thin text-5xl max-md:text-3xl font-thin py-4"> VIRIN </h1>
