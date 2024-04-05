@@ -13,7 +13,7 @@ import img4 from "./4.webp"
 const main = () => {
   return (
    
-    <div className="boddy ">
+    <div className="boddy  ">
     <div className=" bg-black flex pb-10 mb-6 max-md:pb-0">
 
 {/* <div className="  backdrop-opacity-90 blur-sm"> <Image src={bgpic} height={1000} placeholder="blur"  quality={100} sizes="100vw" style={{ objectFit: 'cover', }}
@@ -26,11 +26,11 @@ const main = () => {
   The Future of Influence is Virin. */}
   {/* </p> </div> */}
 
-  <div className=" mt-4 md:mt-20 md:ml-6 flex flex-col robot max-md:p-16">
+  <div className=" mt-4 md:mt-20 md:ml-6 flex flex-col robot ">
   
 
 
-    <h2 className="mb-4  text-white bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md roboto-bold text-4xl max-md:text-base max-md:text-balance  p-4 ">Create your own Influencer : Stop wasting time on <br /> content creation!</h2>
+    <h2 className="mb-4  max-md:mt-6 text-white bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md roboto-bold text-4xl max-md:text-base max-md:text-balance  p-4 ">Create your own Influencer : Stop wasting time on <br /> content creation!</h2>
     <h2 className="mb-6 mt-4 text-yellow-400 text-3xl max-md:text-xl max-md:text-balance roboto-medium">Join the Virin waitlist to unlock endless possibilities !</h2>
 
     
@@ -70,8 +70,8 @@ const main = () => {
 <div className=" mb-6 max-md:pt-10 md:flex  justify-center items-center gap-10 p-20 bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md">
 <Image className=" rounded-md" src={bgpic} height={550} width={550} alt="ai screen" />
 
-<ul>
-  <li className="text-black text-5xl pb-4 max-md:pt-4">Chat with Your <br /> Influencer</li>
+<ul className="text-white">
+  <li className=" text-5xl pb-4 max-md:pt-4">Chat with Your <br /> Influencer</li>
   <li className="text-lg">Interact with your AI influencer in real-time through chat. <br /> Build a genuine connection with your audience and <br /> enhance your brand's engagement.</li>
 </ul>
 
@@ -93,8 +93,8 @@ const main = () => {
 <div className="mb-8  md:flex justify-center items-center gap-10 p-16  bg-gradient-to-r from-purple-400  via-pink-500 to-white... rounded-md">
 <Image className="rounded-md" src={img1} height={500} width={500} alt="ai screen" />
 
-<ul>
-  <li className="text-black text-5xl pb-4 max-md:pt-4">Best in Class AI  <br />Influencer Generator</li>
+<ul  className="text-white">
+  <li className=" text-5xl pb-4 max-md:pt-4">Best in Class AI  <br />Influencer Generator</li>
   <li className="text-lg">Virin offers the most advanced AI technology to create <br /> realistic and engaging influencers for your brand. <br /> Say goodbye to traditional influencer marketing.</li>
 </ul>
 

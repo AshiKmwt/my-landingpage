@@ -46,12 +46,25 @@ body {
   
   }
 } */
+
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
 .boddy{
  
   padding: 0vh 6vh;
   background-color: black;
   
 }
+ @media only screen and (max-width: 330px) {
+  body{
+    background-color: black;
+
+  }}
+
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
