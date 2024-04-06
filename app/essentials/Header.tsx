@@ -15,9 +15,9 @@ const Header = () => {
             </div >
            
             <div className=" max-md:hidden">
-             <button className="bg-purplebtn hover:bg-gray-800 text-white roboto-thin mx-4 my-4  px-10 py-2  border border-black hover:border-white rounded-md  ">
+            <a href="mailto:vabg369@gmail.com"> <button className="bg-purplebtn hover:bg-gray-800 text-white roboto-thin mx-4 my-4  px-10 py-2  border border-black hover:border-white rounded-md  ">
                     CONTACT
-                </button>
+                </button></a>
             </div>
 
 

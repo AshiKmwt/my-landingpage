@@ -10,7 +10,9 @@ import img4 from "./4.webp"
 
 
 
+
 const main = () => {
+ 
   return (
    
     <div className="boddy  ">
@@ -67,7 +69,7 @@ const main = () => {
 
 
 
-<div className=" mb-6 max-md:pt-10 md:flex  justify-center items-center gap-10 p-20 bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md">
+<div className=" mb-6 md:flex  justify-center items-center gap-10 max-md:p-4 md:p-20 bg-gradient-to-r from-purple-400 via-pink-500 to-white... rounded-md">
 <Image className=" rounded-md" src={bgpic} height={550} width={550} alt="ai screen" />
 
 <ul className="text-white">
@@ -90,7 +92,7 @@ const main = () => {
 
 
 </div>
-<div className="mb-8  md:flex justify-center items-center gap-10 p-16  bg-gradient-to-r from-purple-400  via-pink-500 to-white... rounded-md">
+<div className="mb-8  md:flex justify-center items-center gap-10 max-md:p-4 md:p-16  bg-gradient-to-r from-purple-400  via-pink-500 to-white... rounded-md">
 <Image className="rounded-md" src={img1} height={500} width={500} alt="ai screen" />
 
 <ul  className="text-white">
@@ -101,7 +103,7 @@ const main = () => {
 </div>
 
 
-<div className=" md:flex justify-center items-center gap-10 p-16 bg-black  ">
+<div className=" md:flex justify-center items-center gap-10 max-md:p-2 md:p-16 bg-black  ">
 <ul className="text-white">
   <li className=" text-5xl pb-4">Talking Avatar of your <br /> model</li>
   <li className="text-lg max-md:pb-6">Easily create high-quality talking videos with custom <br /> designed voices and facial expressions.</li>
@@ -111,11 +113,7 @@ const main = () => {
 
 
 </div>
-<div className="h-44  flex justify-center items-center bg-black">
-<button className=" roboto-light bg-blue-500 hover:bg-purple-600 text-white  px-16 py-4  border border-black rounded-md ">
-  Join Waitlist
-</button>
-</div>
+
    
 
 
