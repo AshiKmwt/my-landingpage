@@ -40,7 +40,7 @@ const main = () => {
       videos of your <br /> personalized virtual influencer,perfectly
       on-brand for your needs. <br />Effortlessly create engaging content ,
       secure lucrative brand deals, <br /> and watch your earnings soar.  </p>
-      {/* &#128184; (money emo) */}
+      
       <div className="flex gap-10 mt-4 flex-wrap"> 
       <div className="">
         <input type="Name" id="name" className="border border-black rounded-md text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500   p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name" required />
